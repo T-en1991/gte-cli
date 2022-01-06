@@ -1,0 +1,24 @@
+{
+  "name": "gte-cli",
+  "version": "1.0.1",
+  "help": "help os",
+  "description": "gte-first-cli",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gte": "index.js"
+  },
+  "keywords": [
+    "npm",
+    "cli"
+  ],
+  "author": "gte",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "shelljs": "^0.8.4"
+  }
+}
