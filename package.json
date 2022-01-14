@@ -1,5 +1,5 @@
 {
-  "name": "gte-cli",
+  "name": "gte-cli-first",
   "version": "1.0.1",
   "help": "help os",
   "description": "gte-first-cli",
@@ -17,8 +17,14 @@
   "author": "gte",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.2",
     "commander": "^8.3.0",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
     "inquirer": "^8.2.0",
     "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "glob": "^7.2.0"
   }
 }
